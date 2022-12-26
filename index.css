@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    font-size: 40px;
+    color: rgb(248, 196, 25);
+}
+.cityTxtField{
+    font-size: larger;
+    padding: 10px 20px;
+    width: 35%;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+    outline: none;
+}
+
+.search{
+    margin-top: 20px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.search:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.search:focus{
+    outline: 3px solid rgb(156, 161, 167);
+}
+.detailBox{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+    width: 40%;
+    margin-top: 20px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.cityName{
+    background-color: rgb(238, 237, 237);
+    width: 100%;
+    font-size: larger;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+.temperature{
+    margin: 5px;
+}
